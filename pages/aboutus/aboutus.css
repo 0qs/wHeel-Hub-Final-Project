@@ -1,0 +1,200 @@
+.bgimage1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Assets/about_us/family_and_car.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.intro-text {
+    font-size: 50px;
+    text-align: center;    
+    padding-top: 350px;
+    color: white;
+}
+
+.intro-text p {
+    color: white;
+}
+
+.story {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.storyimg1 {
+    width: 500px;
+    border-radius: 6px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+.story-detail {
+    margin: auto 150px auto 100px;
+    
+}
+
+.story-detail p {
+    font-size: 30px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.missionimg1 {
+    width: 500px;
+    border-radius: 6px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 100px;
+}
+
+.mission-detail {
+    margin: auto 150px auto 100px;
+    
+}
+
+.mission-detail p {
+    font-size: 30px;
+}
+
+.vision {
+    background-color: #cecece2a;
+    margin-top: 100px;
+}
+
+.vision h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ourvision {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.vision-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0px 200px 0px;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+
+}
+
+.visionimg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.check-detail {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.check-detail button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    
+}
+
+.check-detail a {
+    text-decoration: none;
+    color: black;
+}
+
+.checkimg {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+@media (max-width: 667px) {
+    
+    .story, .mission {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .storyimg1, .missionimg1, .checkimg {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px 0;
+    }
+
+    .story-detail, .mission-detail, .check-detail {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .intro-text {
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .ourvision {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vision h1 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .vision h2 {
+        font-size: 10px;
+    }
+
+    .vision-detail p {
+        font-size: 10px;
+    }
+    .vision-detail {
+        padding: 100px 20px;
+    }
+
+    .visionimg img {
+        width: 10px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .storyimg1, .missionimg1 {
+            width: 40%;
+    }
+
+    .checkimg {
+        width: 350px;
+    }
+
+}
